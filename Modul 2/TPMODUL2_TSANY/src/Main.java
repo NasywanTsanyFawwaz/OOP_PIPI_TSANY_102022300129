@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Kucing Kucing1 = new Kucing("Momo", 2, "Persia");
-        Burung burung1 = new Burung("Rio", 1, "Hijau");
+        Kucing Kucing1 = new Kucing("Ninja", 2, "British");
+        Burung burung1 = new Burung("Genjor", 1, "Unggu");
 
         System.out.println("Detail Hewan");
         System.out.println();
@@ -9,7 +9,7 @@ public class Main {
         System.out.println("ini adalah " + Kucing1.getNama() + " !");
         Kucing1.suara();
         Kucing1.makan();
-        Kucing1.makan("ikan");
+        Kucing1.makan("whiskas");
 
         System.out.println();
 
